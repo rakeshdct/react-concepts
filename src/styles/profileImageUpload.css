@@ -1,0 +1,81 @@
+.page {
+    font-family: 'Hind Guntur', sans-serif;
+    color: #054231;
+    display: flex;
+    justify-content: center;
+    background: #49afa8;
+    height: 100vh;
+}
+
+.card {
+    width: 310px;
+    height: 427px;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 15px 10px 25px 0px #3fa1a9;
+    background: #fff;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.custom-file-upload {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    padding: 6px;
+    cursor: pointer;
+    background: linear-gradient(270deg, #3fa1a9, #79f1a4);
+    margin-bottom: 25px;
+}
+
+.custom-file-upload>span {
+    position: absolute;
+    font-size: 100px;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+
+.img-wrap {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-upload>span {
+    font-size: 20px;
+    position: absolute;
+    padding-top: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #63d3a6;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fff;
+}
+
+.img-upload:hover>span {
+    opacity: 1
+}
+
+img {
+    width: auto;
+    height: 100%;
+}

@@ -34,7 +34,7 @@ h1 {
     padding: 6px;
     cursor: pointer;
     background: linear-gradient(270deg, #3fa1a9, #79f1a4);
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .custom-file-upload>span {
@@ -78,4 +78,16 @@ h1 {
 img {
     width: auto;
     height: 100%;
+}
+
+p {
+    margin: 0 0 20px;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+h2.space {
+    margin: 38px 0 10px;
 }
